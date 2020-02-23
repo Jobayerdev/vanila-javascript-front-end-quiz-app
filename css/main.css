@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	outline: none;
+	transition: 0.4s all ease-in-out;
+}
+
+body {
+	background: #6a3093;
+	background: linear-gradient(to bottom, #a044ff, #6a3093);
+	height: 100vh;
+	width: 100vw;
+	font-family: "Roboto";
+}
+
+.container {
+	max-width: 1142px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.status {
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	height: 20vh;
+	margin-top: 10vh;
+}
+
+.time {
+	font-size: 45px;
+	color: #ffff;
+	font-weight: 700;
+}
+.marks {
+	font-size: 16px;
+	color: rgb(243, 243, 243);
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.question {
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	height: 15vh;
+}
+
+.question h3 {
+	font-size: 34px;
+	color: #ffff;
+}
+.Answer {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(2, auto);
+	gap: 30px;
+	margin: 20px 0;
+	width: 80%;
+	margin: 0 auto;
+	height: 40vh;
+}
+.controls {
+	display: flex;
+	height: 10vh;
+	margin-bottom: 5vh;
+}
+.controls .btn {
+	padding: 10px 0px;
+	height: 40px;
+	margin-right: 10px;
+	background-color: rgb(247, 8, 127);
+	background-color: #2196f3;
+	border: none;
+}
+.btn {
+	background-color: transparent;
+	border: 1px solid #ffff;
+	height: 50px;
+	width: 100%;
+	color: #ffff;
+	font-weight: 500;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 15px 20px;
+	min-width: 150px;
+}
+
+/* functional  */
+
+.hide {
+	display: none;
+}
+
+.correct {
+	background-color: #009688;
+	border-color: #109487;
+}
+.wrong {
+	background-color: #e91e63;
+	border-color: #f44336;
+}
