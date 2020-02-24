@@ -125,5 +125,86 @@ const questions = [
 				ans: false
 			}
 		]
+	},{
+		question: "How can u highlight text in html?",
+		answers: [
+			{ text: "<strong>Hello World!</strong>", ans: false },
+			{ text: "<mark>Hello World!</mark>", ans: true },
+			{ text: "<text>Hello World!</text>", ans: false },
+			{
+				text: "<highligh>Hello World!</highligh>",
+				ans: false
+			}
+		]
+	},{
+		question: "What is the difference between span and div?",
+		answers: [
+			{ text: "div useing for section element", ans: false },
+			{ text: "Span is to small", ans: false },
+			{ text: "div is a block element and span is inline element.", ans: true },
+			{text: "I really don't like span tah",ans: false }
+		]
+	},{
+		question: "What does float do?",
+		answers: [
+			{ text: "Float push an element by side by side and wrapped around it.", ans: true },
+			{ text: "Clear a slide of an element", ans: false },
+			{ text: "Floating on page", ans: false },
+			{text: "Because deeveloper like this too much",ans: false }
+		]
+	},{
+		question: " Does css properties are case sensitive?",
+		answers: [
+			{ text: "Yes", ans: false },
+			{ text: "No", ans: true }
+		]
+	},{
+		question: "Does margin-top or margin-bottom has effect on inline element?",
+		answers: [
+			{ text: "No", ans: true },
+			{ text: "Yes", ans: false }
+		]
+	},{
+		question: "Does padding-top or padding-bottom has effect on inline element?",
+		answers: [
+			{ text: "No", ans: true},
+			{ text: "Yes", ans: false }
+		]
+	},{
+		question: "Does padding-left or padding-right or margin-left or margin-right has effect on inline element?",
+		answers: [
+			{ text: "Yes", ans: true },
+			{ text: "No", ans: false }
+		]
+	},{
+		question: "If you have a <p> element with font-size: 10rem, will the text be responsive when the user resizes / drags the browser window?",
+		answers: [
+			{ text: "Yes", ans: false },
+			{ text: "No", ans: true }
+		]
+	},{
+		question: "In a HTML document, the pseudo class :root always refers to the <html> element?",
+		answers: [
+			{ text: "Yes", ans: true },
+			{ text: "false", ans: false }
+		]
+	},{
+		question: "The translate() function can move the position of an element on the z-axis.",
+		answers: [
+			{ text: "No", ans: true },
+			{ text: "Yes", ans: false }
+		]
+	},{
+		question: "What are the properties related to box model?",
+		answers: [
+			{ text: "Html , Body, Title", ans: false },
+			{ text: "height, width, padding and border are part of box model and margin is related to it", ans: false },
+			{ text: "Float , Posting, Display", ans: false }
+		]
 	}
 ];
+
+
+
+
+
